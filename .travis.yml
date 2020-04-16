@@ -7,6 +7,7 @@ arch:
 jdk:
   - oraclejdk8
 addons:
+  packages: maven
   sauce_connect: true
   chrome: stable
   firefox: latest-esr
